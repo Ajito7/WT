@@ -1,0 +1,250 @@
+/* STEP-01 */
+
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pic1.JPEG);
+	height : 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+
+#display
+{
+	max-width: 1400px;
+	margin:auto;
+}
+
+#aj7t
+{
+	position: absolute;
+	width: 800px;
+	margin-left: 0px;
+	margin-top: 0px;
+	
+}
+
+#aj7t a 
+{
+	color: brown;
+	text-decoration: none;	
+}
+
+ h1
+{
+	color: navy;
+	text-transform: uppercase;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 250px;
+	margin-left: 150px;
+}
+
+
+h2
+{
+	color: #ADD8E6;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 130px;
+	font-family:"comic san MS", cursive, san-serif;
+}	
+
+.link
+{
+	margin-top:35px;
+    margin-left:333px;
+	width: 400px;
+}
+
+
+.lnk
+{
+	border: 1px solid white;
+	padding: 11px 30px;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size:13px;
+	text-transform: ultra-expanded;
+	
+	width: 60px;	
+}
+
+.link-one
+{
+background-color:white;
+}
+
+
+.link input 
+{
+
+	padding: 10px 30px;
+	text-decoration: none;
+	width: 60px;
+	height: 15px;
+	line-height:15px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 50px;
+}
+
+.link input:hover
+{
+	background-color: #2F4F4F;
+}
+
+
+p
+{
+	color: #ADD8E6;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family:"comic san MS", cursive, san-serif;
+	margin-top:15px;
+    margin-right:120px;
+	
+}
+	
+
+
+
+
+
+/* STEP-02 */
+
+
+#menu ul
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+	transition: 0.5s ease-in;
+	
+}	
+
+#menu ul li
+{
+	display: inline-table;
+	text-align: center;
+	float: left;
+	width: 100px;
+	height: 30px;
+	line-height:30px;
+	position: relative;
+	background-color: ##;
+}
+
+#menu ul li a	
+{
+	color: white;
+	text-decoration: none;
+	padding: 3px 10px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+    font-family: bold;
+	
+
+}	
+
+
+#menu ul li.active a
+{
+	
+	border: 1px solid white;
+	background-color: red;
+
+}
+
+
+#menu ul li a:hover
+{
+	background-color: darkorange;
+}
+
+#menu ul ul 
+{
+	display: none;
+}
+
+
+#menu ul li:hover > ul
+{
+	display: block;
+	margin-top: 10px;;
+}
+
+
+
+
+/*  STEP-03 */
+
+
+.logo 
+{
+	
+	height: auto;
+	float: left;
+	margin-top: 600px;
+	margin-left: 10px;
+	
+}
+
+.logo img
+{
+	width: 40px;
+	height: auto;
+	float: left;
+    padding: 1px 1px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: white;
+	border-radius:10px;
+}
+
+
+.table
+{
+	position: absolute;
+	width: 120px;
+	margin-left: 10px;
+	margin-top: 50px;
+	
+}
+
+
+
+h3
+{
+	color: #ADD8E6;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family:"comic san MS", cursive, san-serif;
+}
+
+.link input 
+{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color:  black;
+	text-decoration: none;
+	margin-right: 5px;
+	text-align: center;
+	font-size:13px;
+	text-transform: ultra-expanded;
+	width: 80px;
+	height: 15px;
+	line-height:15px;
+	background-color: pink;
+}
+
+
